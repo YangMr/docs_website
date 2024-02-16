@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "YangMr的文档网站",
   description: "YangMr的文档网站",
+  base: "/docs_website/",
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
   themeConfig: {
     // logo: "logo.svg",
