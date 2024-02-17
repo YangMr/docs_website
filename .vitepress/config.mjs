@@ -5,6 +5,7 @@ export default defineConfig({
   title: "YangMr的文档网站",
   description: "YangMr的文档网站",
   base: "/docs_website/",
+  lang: "en-US",
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
   themeConfig: {
     // logo: "logo.svg",
@@ -17,7 +18,7 @@ export default defineConfig({
       {
         text: "项目",
         items: [
-          { text: "智慧园区项目", link: "/markdown-examples" },
+          { text: "智慧园区项目", link: "/docs/parks/01.项目前置课.md" },
           { text: "智慧园区可视化大屏项目", link: "/api-examples" },
           { text: "搭建UI组件库", link: "/api-examples" },
         ],
@@ -33,10 +34,42 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
+        text: "智慧园区项目",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "01.项目前置课", link: "/docs/parks/01.项目前置课.md" },
+          { text: "02.项目初始化", link: "/docs/parks/02.项目初始化.md" },
+          {
+            text: "03.登录功能和Token管理",
+            link: "/docs/parks/03.登录功能和Token管理.md",
+          },
+          {
+            text: "04.行车管理 - 月卡管理（CRUD精讲）",
+            link: "/docs/parks/04.行车管理 - 月卡管理（CRUD精讲）.md",
+          },
+          {
+            text: "05.园区管理 - 企业管理",
+            link: "/docs/parks/05.园区管理 - 企业管理.md",
+          },
+          {
+            text: "06.行车管理 - 计费规则管理",
+            link: "/docs/parks/06.行车管理 - 计费规则管理.md",
+          },
+          {
+            text: "07.系统管理 - 角色管理",
+            link: "/docs/parks/07.系统管理 - 角色管理.md",
+          },
+          {
+            text: "08.前端权限控制 - 菜单路由权限",
+            link: "/docs/parks/08.前端权限控制 - 菜单路由权限.md",
+          },
+          {
+            text: "09.前端权限控制 - 按钮权限",
+            link: "/docs/parks/09.前端权限控制 - 按钮权限.md",
+          },
+          {
+            text: "10.项目业务说明梳理",
+            link: "/docs/parks/10.项目业务说明梳理.md",
+          },
         ],
       },
     ],

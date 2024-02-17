@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /markdown-examples
+      link: /docs/parks/01.项目前置课.md
     - theme: alt
       text: GitHub
       link: /api-examples
