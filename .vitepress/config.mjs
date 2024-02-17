@@ -24,7 +24,7 @@ export default defineConfig({
             text: "智慧园区可视化大屏项目",
             link: "/docs/parks_view/02.项目环境搭建.md",
           },
-          { text: "搭建UI组件库", link: "/api-examples" },
+          { text: "搭建UI组件库", link: "/docs/elm_ui/01.课程介绍.md" },
         ],
       },
       {
@@ -164,6 +164,42 @@ export default defineConfig({
             {
               text: "05.大屏适配",
               link: "/docs/parks_view/05.大屏适配.md",
+            },
+          ],
+        },
+      ],
+      "/docs/elm_ui/": [
+        {
+          text: "搭建UI组件库",
+          items: [
+            { text: "01.课程介绍", link: "/docs/elm_ui/01.课程介绍.md" },
+            {
+              text: "02.封装组件初级篇上",
+              link: "/docs/elm_ui/02.封装组件初级篇上.md",
+            },
+            {
+              text: "03.封装组件初级篇下",
+              link: "/docs/elm_ui/03.封装组件初级篇下.md",
+            },
+            {
+              text: "04.封装组件中级篇",
+              link: "/docs/elm_ui/04.封装组件中级篇.md",
+            },
+            {
+              text: "05.封装组件高级篇上",
+              link: "/docs/elm_ui/05.封装组件高级篇上.md",
+            },
+            {
+              text: "06.封装组件高级篇下",
+              link: "/docs/elm_ui/06.封装组件高级篇下.md",
+            },
+            {
+              text: "07.封装组件拓展篇",
+              link: "/docs/elm_ui/07.封装组件拓展篇.md",
+            },
+            {
+              text: "08.使用vuepress 编写组件文档",
+              link: "/docs/elm_ui/08.使用vuepress 编写组件文档.md",
             },
           ],
         },
