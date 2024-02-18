@@ -34,6 +34,15 @@ export default defineConfig({
           { text: "面试题话术", link: "/api-examples" },
         ],
       },
+      {
+        text: "其他",
+        items: [
+          {
+            text: "搭建VitePress站点",
+            link: "/docs/vite-press/搭建vitePress站点.md",
+          },
+        ],
+      },
     ],
 
     // sidebar: [
