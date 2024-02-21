@@ -30,8 +30,8 @@ export default defineConfig({
       {
         text: "面试题",
         items: [
-          { text: "项目难点", link: "/docs/difficulty/index" },
-          { text: "面试题话术", link: "/docs/question/index" },
+          { text: "项目难点", link: "/docs/difficulty/index.md" },
+          { text: "面试题话术", link: "/docs/question/index.md" },
         ],
       },
       {
