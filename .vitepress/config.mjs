@@ -174,6 +174,14 @@ export default defineConfig({
               text: "05.大屏适配",
               link: "/docs/parks_view/05.大屏适配.md",
             },
+            {
+              text: "06.接入微前端",
+              link: "/docs/parks_view/06.接入微前端.md",
+            },
+            {
+              text: "07.部署上线说明",
+              link: "/docs/parks_view/07.部署上线说明.md",
+            },
           ],
         },
       ],
